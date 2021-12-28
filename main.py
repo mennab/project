@@ -13,9 +13,9 @@ def subtraction():
     print("Subtraction")
     n = float(input("Enter the number: "))
     t = 0
-    sum = 0
+    ans = 0
     while n != 0:
-        ans = ans - n
+        ans = n - ans
         t+=1
         n = float(input("Enter another number (0 to calculate): "))
     return [ans,t]
