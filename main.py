@@ -10,7 +10,7 @@ def addition():
     return [ans,t]
 
 def subtraction():
-    print("Subtraction");
+    print("Subtraction")
     n = float(input("Enter the number: "))
     t = 0
     sum = 0
@@ -40,7 +40,7 @@ def average():
     return [ans,t]
 
 while True:
-    ist = []
+    list = []
     print(" Enter 'a' for addition")
     print(" Enter 's' for substraction")
     print(" Enter 'm' for multiplication")
@@ -49,16 +49,16 @@ while True:
     c = input(" ")
     if c != 'q':
         if c == 'a':
-            ist = addition()
+            list = addition()
             print("Ans = ", list[0], " total inputs ",list[1])
         elif c == 's':
-            ist = subtraction()
+            list = subtraction()
             print("Ans = ", list[0], " total inputs ",list[1])
         elif c == 'm':
-            ist = multiplication()
+            list = multiplication()
             print("Ans = ", list[0], " total inputs ",list[1])
         elif c == 'v':
-            ist = average()
+            list = average()
             print("Ans = ", list[0], " total inputs ",list[1])
         else:
             print("Sorry, invalid character")
